@@ -201,6 +201,7 @@ def solution(nodes):
             if box.state == switch.parent:
               
                 switch = box
+                
     temp.append(switch.state)
     temp.reverse()
 
