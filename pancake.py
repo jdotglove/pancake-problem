@@ -2,7 +2,6 @@ import sys
 import time
 import math
 
-
 goal_state = []
 rev = []
 
