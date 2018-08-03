@@ -225,8 +225,7 @@ def main():
     # Recieve the order of the pancakes from input
     inputList = input("Enter the order of the pancakes (separated by spaces): ").split()
     if (len(inputList) != 0):
-        setGoal(len(inputList))
-     
+        setGoal(len(inputList))     
     else:
         # Triggered if all 5 pancakes are not listed on the same line
         print("Please list the order of the pancakes")
